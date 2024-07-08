@@ -1,0 +1,20 @@
+{
+  "name": "wp-version-updater",
+  "version": "1.0.0",
+  "description": "A tool to update WordPress plugin versions.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "bin": {
+    "wp-version-updater": "./index.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^10.0.0",
+    "ora": "^6.0.1",
+    "commander": "^9.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
